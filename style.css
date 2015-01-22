@@ -1,0 +1,167 @@
+<style>
+/*reset - http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	/*background: transparent;*/
+}
+body {
+	line-height: 1;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+body {
+	background:no-repeat url('image.png');
+}
+.hide {
+	display:none;
+}
+#main {
+	height:380px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	text-align:center;
+	max-width:680px;
+
+}
+h1{
+	/* font-size: 56px; */
+	font-size: 5.6em;
+	letter-spacing: 10px;
+	color: #025D8C;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto 10px;
+	/* width: 100%; */
+
+}
+
+#main p {
+	font-size:20px;
+	color:#333;
+}
+#main p:nth-child(2) {
+	color:#888;
+	margin-bottom:40px;
+}
+#main p.beta {
+	color:#1693A5;
+	margin:50px 0 0;
+}
+#mc_embed_signup {
+	display:inline-block;
+}
+#mc_embed_signup_scroll {
+	display:inline-block;
+}
+input {
+width: 300px !important;
+border: 1px solid #999;
+padding: 8px;
+font-size: 12px;
+letter-spacing: 1px;
+margin: 20px 0 0;
+}
+input.button {
+	background:#aaa;
+	width:200px;
+	border:none;
+	color:#fff;
+	border-radius:4px;
+	margin-top: 20px;
+}
+input.button:hover {
+	cursor:pointer;
+	background:#888;
+}
+
+
+/* Large desktop */
+/*
+@media (min-width: 1200px) { ... }
+ 
+ Portrait tablet to landscape and desktop
+@media (min-width: 768px) and (max-width: 979px) { ... }
+*/
+ 
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 767px) {
+
+	#main {
+		padding:5%;
+		width:90%;
+		max-width:90%;
+		}	
+ }
+ 
+/* Landscape phones and down */
+@media screen and (max-width:480px) {
+	#main {
+		padding:5%;
+		width:90%;
+		max-width:90%;
+		}
+	h1 {
+		font-size:3.6em;
+	}	
+	#main > article {
+		font-size:2.4em;
+		letter-spacing: .06em;
+		line-height:1.5;
+	}
+ }
+/* 
+@media screen and (device-aspect-ratio: 2/3) {
+	#main > article {
+		color:green !important;
+		}
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+	#main > article {
+		color:yellow !important;
+		}
+}
+
+@media screen and (device-aspect-ratio: 3/4) {}
+*/
+</style>
