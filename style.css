@@ -45,12 +45,19 @@ table {
 
 /* end reset */
 body {
-	background:no-repeat url('image.png');
+
 }
 .hide {
 	display:none;
 }
+#container {
+
+	width:100%;
+	height:100%;
+}
 #main {
+	background:no-repeat url('image.png');
+	background-position: 50%; 
 	height:380px;
 	position:absolute;
 	top:0;
@@ -70,44 +77,41 @@ h1{
 	font-weight: 500;
 	text-align: center;
 	vertical-align: middle;
-	margin: 0 auto 10px;
+	margin: 0 auto 25px;
 	/* width: 100%; */
-
 }
-
 #main p {
 	font-size:20px;
 	color:#333;
 }
 #main p:nth-child(2) {
 	color:#888;
-	margin-bottom:40px;
+	margin-bottom:50px;
 }
 #main p.beta {
 	color:#1693A5;
 	margin:50px 0 0;
 }
-#mc_embed_signup {
+#main div {
 	display:inline-block;
-}
-#mc_embed_signup_scroll {
-	display:inline-block;
+	margin:auto;
 }
 input {
-width: 300px !important;
-border: 1px solid #999;
-padding: 8px;
-font-size: 12px;
-letter-spacing: 1px;
-margin: 20px 0 0;
+	display:block;
+	width: 300px;
+	border: 1px solid #999;
+	padding: 8px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 20px 0 0;
 }
 input.button {
+	width:150px;
 	background:#aaa;
-	width:200px;
 	border:none;
 	color:#fff;
 	border-radius:4px;
-	margin-top: 20px;
+	margin: 20px auto;
 }
 input.button:hover {
 	cursor:pointer;
